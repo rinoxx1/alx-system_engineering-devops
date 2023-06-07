@@ -1,3 +1,2 @@
 #!/bin/bash
-absolute_path=$(realpath .)
-echo "$absolute_path"
+echo "$(realpath .)"
